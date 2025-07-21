@@ -1,2 +1,2 @@
 #!/bin/bash
-ps aux -u $1
+ps auxwc  | grep "^root" | grep -v " 0 0"
