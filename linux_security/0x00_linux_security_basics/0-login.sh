@@ -1,2 +1,2 @@
 #!/bin/bash
-last | tail -n 7
+sudo last | tail -n 7
